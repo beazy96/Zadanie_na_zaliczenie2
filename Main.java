@@ -20,8 +20,7 @@ double pierwdelta=0;
 delta = (b*b)-4*(a*c);
 pierwdelta = Math.sqrt(delta);
     if (delta < 0){
-    System.out.println("Brak rozwiazan-2
-                       ");
+    System.out.println("Brak rozwiazan");
     }
     if (delta == 0){
     x=(-b)/(2*a);
